@@ -1,0 +1,81 @@
+
+/* ---- Header  (Section 1) --- */
+/* * {
+    border: 2px solid aqua;
+  } */
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.logo
+{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+    /* font-weight: bold; */
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* ---- Hero  (Section 2) --- */
+
+.hero
+{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding: 50px 20px 0px 175px; 
+    font-family: 'Roboto', sans-serif;
+}
+.hero-text{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px 
+}
+.hero-image{
+    display: flex;
+    padding-bottom: 50px;
+}
+.hero-main-text{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero-secondary-text{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    margin-right: 70%
+}
+.hero-button{
+    border-radius: 16px;
+}
+
+/* ---- Info-Box1  (Section 3) --- */
+
+.infobox1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
