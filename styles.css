@@ -3,10 +3,11 @@
 /* * {
     border: 2px solid aqua;
   } */
+
 .header
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
     padding: 20px;
     background-color: #1F2937;
 }
@@ -31,12 +32,17 @@ a
 }
 
 /* ---- Hero  (Section 2) --- */
-
+.hero-box{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around; 
+    flex-direction: row;
+}
 .hero
 {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px 20px 0px 175px; 
     font-family: 'Roboto', sans-serif;
 }
@@ -50,6 +56,10 @@ a
 .hero-image{
     display: flex;
     padding-bottom: 50px;
+}
+.gameplay-image{
+    border: 5px solid #F9FAF8;
+    border-radius: 25px;
 }
 .hero-main-text{
     font-weight: bold;
@@ -72,10 +82,38 @@ button{
     border-radius: 16px;
 }
 
+
 /* ---- Info-Box1  (Section 3) --- */
 
 .infobox1{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+.imagebox1
+{
+    display: flex;
+    justify-content: center;
+    gap:64px;
+}
+
+.slime{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.imagebox1.Nslime-img
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .textbox{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap:36px;
+} */
