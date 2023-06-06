@@ -1,7 +1,7 @@
 
 /* ---- Header  (Section 1) --- */
 /* * {
-    border: 2px solid aqua;
+    border: 2px solid plum;
   } */
 
 .header
@@ -19,8 +19,6 @@
     display: flex;
     align-items: center;
     font-size: 24px;
-    
-    /* font-weight: bold; */
 }
 
 a
@@ -76,7 +74,9 @@ a
 button{
     background-color: #3882F6;
     color:white;
-    margin-right: 70%
+    margin-right: 70%;
+    height: 60px;
+    width: 180px;
 }
 .hero-button{
     border-radius: 16px;
@@ -87,7 +87,6 @@ button{
 
 .infobox1{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -111,9 +110,67 @@ button{
     flex-direction: column;
 }
 
-/* .textbox{
+/* ---- Quote-Box  (Section 4) --- */
+.quotebox
+{
     display: flex;
-    text-align: left;
+    flex-direction: column;
+    background-color: #E5E7EB;
     justify-content: center;
-    gap:36px;
-} */
+    align-items: center;
+
+}
+
+.quotetext{
+    font-size: 48px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.nametag{
+    margin-top: -24px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+}
+
+/* ---- Action-Box  (Section 5) ---  */
+
+.actionbox{
+    display: flex;
+    justify-content: center;
+}
+
+.actionarea{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 2% 10% 2% 10% ;
+}
+
+.actiontext{
+    font-size: 16px;
+    color: #F9FAF8;
+    
+}
+.actionbutton{
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+
+/* ---- Footer  (Section 6) ---  */
+.footerbox
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+}
