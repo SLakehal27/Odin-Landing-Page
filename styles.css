@@ -63,6 +63,8 @@ a:hover{
 .gameplay-image{
     border: 5px solid #F9FAF8;
     border-radius: 25px;
+    opacity: 0.75;
+    transition: 1s ease;
 }
 .hero-main-text{
     font-weight: bold;
@@ -94,6 +96,13 @@ a:hover{
     box-shadow: -5px 10px #210847;
 }
 
+.gameplay-image:hover{
+    opacity: 1;
+    transition: 0.5s ease;
+    width:675px;
+    height: 500px;
+}
+
 /* ---- Info-Box1  (Section 3) --- */
 
 .infobox1{
@@ -113,18 +122,20 @@ a:hover{
 .slime{
     border: 5px solid #3882F6;
     border-radius: 25px;
+    transition: 1s ease;
+    opacity: 0.75;
 }
 
 .imagebox1.Nslime-img
 {
     display: flex;
     flex-direction: column;
-    transition: all .5s ease;
+
 }
 
 .slime:hover{
-    transition: 0.7s;
-    opacity: 0.5;
+    transition: 0.5s ease;
+    opacity: 1;
     height: 192px;
     width: 192px;
 }
