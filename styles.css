@@ -49,7 +49,7 @@ a
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px 
+    gap: 24px 
 }
 .hero-image{
     display: flex;
@@ -71,17 +71,23 @@ a
     font-size: 18px;
 }
 
-button{
+.hero-button{
     background-color: #3882F6;
     color:white;
     margin-right: 70%;
     height: 60px;
     width: 180px;
-}
-.hero-button{
     border-radius: 16px;
+    border: 2px solid #F9FAF8;
+    box-shadow: -5px 10px #3e1a99;
 }
 
+.hero-button:hover{
+    border: 2px solid #5bddf7;
+    background-color: #3e1a99;
+    transition: 0.7s;
+    box-shadow: -5px 10px #210847;
+}
 
 /* ---- Info-Box1  (Section 3) --- */
 
@@ -157,14 +163,22 @@ button{
     color: #F9FAF8;
     
 }
+
 .actionbutton{
-    color: #F9FAF8;
-    border: 2px solid #F9FAF8;
+    border: 2px solid beige;
+    background-color: #3882F6;
+    color:white;
     padding: 2px 20px;
     border-radius: 25px;
+    box-shadow: 5px 5px #3e1a99;
 }
 
-
+.actionbutton:hover{
+    border: 2px solid #5bddf7;
+    background-color: #3e1a99;
+    box-shadow: 5px 5px #210847;
+    transition: 0.7s;
+}
 /* ---- Footer  (Section 6) ---  */
 .footerbox
 {
