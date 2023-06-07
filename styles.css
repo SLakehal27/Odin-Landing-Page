@@ -33,6 +33,7 @@ a:hover{
     background-color: #3882F6;
     border-radius: 25px;
 }
+
 /* ---- Hero  (Section 2) --- */
 .hero-box{
     display: flex;
@@ -118,6 +119,14 @@ a:hover{
 {
     display: flex;
     flex-direction: column;
+    transition: all .5s ease;
+}
+
+.slime:hover{
+    transition: 0.7s;
+    opacity: 0.5;
+    height: 192px;
+    width: 192px;
 }
 
 /* ---- Quote-Box  (Section 4) --- */
