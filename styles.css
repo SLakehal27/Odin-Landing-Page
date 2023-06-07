@@ -29,6 +29,10 @@ a
     padding: 10px;
 }
 
+a:hover{
+    background-color: #3882F6;
+    border-radius: 25px;
+}
 /* ---- Hero  (Section 2) --- */
 .hero-box{
     display: flex;
